@@ -1,0 +1,3 @@
+A simple UV iterative decomposition algorithm for collaborative filtering recommender systems. I used it mainly as a proof of concept and for testing purposes, so it is not mean to be the most efficient implementation.
+
+Given a NxM matrix of ratings (generated from netflix data), this algorithm will start with two U and V matrices that are randomly initialized (I used a particular starting value), the algorithm iterates to compute new values for the U and V matrix elements. An optimization is made to recompute an element several times to speed up convergence, since all data pertaining to one element should be already loaded inside its loop iteration.
