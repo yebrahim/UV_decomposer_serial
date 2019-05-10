@@ -1,5 +1,4 @@
 Author: Yasser Elsayed
-yasser.ebrahim@gmail.com
 
 A simple UV iterative decomposition algorithm for collaborative filtering recommender systems. I used it mainly as a proof of concept and for testing purposes, so it is not mean to be the most efficient implementation.
 
